@@ -4,5 +4,5 @@ numpy
 Pillow
 pandas
 tensorflow
-opencv-python
+opencv-python-headless
 
