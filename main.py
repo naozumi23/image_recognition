@@ -34,7 +34,7 @@ def make_heatmap(last_conv_layer_name, model, target_image):
 st.title("Image Recognition")
 
 # abstract
-st.write("When you input an image, the result of image recognition by CNN and the judgment part are shown.")
+st.write("When you input an image, the result of image recognition by CNN and the judgment part are shown by grad-CAM.")
 
 # image input
 uploaded_file = st.file_uploader("File Upload", type='jpg')
